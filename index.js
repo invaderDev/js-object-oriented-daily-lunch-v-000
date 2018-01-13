@@ -5,7 +5,6 @@ let deliveryId = 0;
 class Delivery{
   constructor(meal = {}, customer = {}){
     this.id = ++deliveryId;
-    //broke when i added these properties, still not sure why. Same with Cust
     this.mealId = meal.id;
     this.customerId = customer.id;
 
